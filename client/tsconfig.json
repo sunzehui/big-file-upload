@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",	// 可不写，因为webpack会配置输出路径
+      "target": "ES6",
+      "noImplicitAny": true,
+      "strict": false,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports":true,
+      "forceConsistentCasingInFileNames":true // 严格文件名大小写 windows下必开！
+    },
+    // **代表所有目录 *代表所有文件
+    "include": [
+      "src/**/*"
+    ]
+  }
+  
